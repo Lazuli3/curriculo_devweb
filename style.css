@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+.curriculo {
+  background: white;
+  width: 700px;
+  padding: 0 0 40px 0;
+}
+
+.cabecalho {
+  background: #8B0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+.cabecalho h1 {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.subtitulo {
+  font-size: 13px;
+  letter-spacing: 4px;
+  color: #cccccc;
+  margin-top: 6px;
+}
+
+.foto {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black;
+}
+
+.contato {
+  background: black;
+  padding: 14px 40px;
+  display: flex;
+  gap: 30px;
+  font-size: 13px;
+  justify-content: center;
+}
+
+
+.white-text {
+  color: #f0f0f0;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid gray;
+}
+
+/* Corpo principal */
+.corpo {
+  padding: 30px 40px 0 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+section h2 {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #1a1a1a;
+  padding-bottom: 4px;
+  margin-bottom: 10px;
+}
+
+section p,
+section li {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.7;
+}
+
+ul {
+  padding-left: 18px;
+  list-style-type: none;
+}
+
+.negrito {
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+  padding: 12px 40px;
+  background: #ad0b0b;
+  position: sticky;
+  top: 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 12px;
+  background: #8B0000;
+  border-radius: 4px;
+}
+
+.menu a:hover {
+  background: #666;
+}
