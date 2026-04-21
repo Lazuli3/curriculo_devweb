@@ -17,7 +17,6 @@ body {
   padding: 0 0 40px 0;
 }
 
-/* ── CABEÇALHO ── */
 .cabecalho {
   background: #8B0000;
   color: white;
@@ -49,7 +48,6 @@ body {
   flex-shrink: 0;
 }
 
-/* ── CONTATO ── */
 .contato {
   background: black;
   padding: 14px 40px;
@@ -69,7 +67,6 @@ hr {
   border-top: 1px solid gray;
 }
 
-/* ── CORPO PRINCIPAL ── */
 .corpo {
   padding: 30px 40px 0 40px;
   display: flex;
@@ -129,11 +126,9 @@ ul {
   background: #666;
 }
 
-/* ══════════════════════════════════════
-   RESPONSIVIDADE
-   ══════════════════════════════════════ */
+/* responsividade */
 
-/* Tablets e telas médias */
+/* tablets */
 @media (max-width: 740px) {
   .curriculo {
     width: 100%;
@@ -185,7 +180,7 @@ ul {
   }
 }
 
-/* Celulares pequenos */
+/* cel */
 @media (max-width: 480px) {
   .cabecalho h1 {
     font-size: 20px;
