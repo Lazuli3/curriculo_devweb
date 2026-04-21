@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: center;
+}
+
+.pagina {
+    background: white;
+    width: 700px;
+    padding: 0 0 40px 0;
+}
+
+nav.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 40px;
+    background: #ad0b0b;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 5px 12px;
+    background: #8B0000;
+    border-radius: 4px;
+}
+
+nav.menu a:hover {
+    background: #666;
+}
+
+header.cabecalho {
+    background: #8B0000;
+    color: white;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+header.cabecalho img {
+    width: 40px;
+    height: 40px;
+}
+
+header.cabecalho h1 {
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+header.cabecalho p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #cccccc;
+    margin-top: 4px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid gray;
+}
+
+main {
+    padding: 30px 40px;
+}
+
+main > p {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 24px;
+    line-height: 1.7;
+}
+
+h2.section-title {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #1a1a1a;
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    margin-bottom: 32px;
+}
+
+thead tr {
+    background: #8B0000;
+    color: white;
+}
+
+thead th {
+    padding: 10px 14px;
+    text-align: left;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+tbody tr:nth-child(even) {
+    background: #f9f2f2;
+}
+
+tbody tr:hover {
+    background: #f0dada;
+}
+
+tbody td {
+    padding: 10px 14px;
+    color: #333;
+    line-height: 1.6;
+    vertical-align: top;
+}
+
+tbody td:first-child {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: #8B0000;
+    white-space: nowrap;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: #8B0000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+    /* Responsivo */
+@media (max-width: 740px) {
+    .pagina {
+        width: 100%;
+    }
+
+    nav.menu {
+        padding: 10px 16px;
+        gap: 6px;
+    }
+
+    nav.menu a {
+        font-size: 11px;
+        padding: 4px 8px;
+    }
+
+    header.cabecalho {
+        padding: 20px 16px;
+    }
+
+    header.cabecalho h1 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 20px 16px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+    }
+}
